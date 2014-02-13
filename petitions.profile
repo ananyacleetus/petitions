@@ -7,7 +7,7 @@ function petitions_form_install_configure_form_alter(&$form, &$form_state, $form
   $form['update_notifications']['update_status_module']['#default_value'] = array(0);
 }
 
-/**
+/** 
  * Implementation of hook_profile_form_alter().
  */
 function petitions_form_alter(&$form, $form_state, $form_id) {
